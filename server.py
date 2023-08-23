@@ -3,8 +3,8 @@ from dataclasses import dataclass
 
 app = Flask(__name__)
 @dataclass
-class result:
-    result:int
+class res:
+    res:int
 
 @app.route("/calculator/greeting", methods=['GET'])
 def greeting():
